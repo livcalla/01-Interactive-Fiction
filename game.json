@@ -1,0 +1,835 @@
+{
+    "passages": [
+      {
+        "text": "You jolt awake in your bed. Your brain is buzzing and your body feels as heavy as lead. It feels like you've been dreaming for a long time.\n[[Get up->Bedroom]]\n[[Go back to bed->Slumber]]\n",
+        "links": [
+          {
+            "name": "Get up",
+            "link": "Bedroom",
+            "pid": "2"
+          },
+          {
+            "name": "Go back to bed",
+            "link": "Slumber",
+            "pid": "3"
+          }
+        ],
+        "name": "Wake Up",
+        "pid": "1",
+        "position": {
+          "x": "840",
+          "y": "225"
+        }
+      },
+      {
+        "text": "You drag your body up and out of bed and look around your room.\n[[Look in Toy Chest->Toy Chest]]\n[[Look in Closet->Closet]]\n[[Look under Bed->Bed]]\n[[Look out Window->Window]]\n[[Leave room->Upstairs Hallway]]",
+        "links": [
+          {
+            "name": "Look in Toy Chest",
+            "link": "Toy Chest",
+            "pid": "4"
+          },
+          {
+            "name": "Look in Closet",
+            "link": "Closet",
+            "pid": "5"
+          },
+          {
+            "name": "Look under Bed",
+            "link": "Bed",
+            "pid": "6"
+          },
+          {
+            "name": "Look out Window",
+            "link": "Window",
+            "pid": "7"
+          },
+          {
+            "name": "Leave room",
+            "link": "Upstairs Hallway",
+            "pid": "8"
+          }
+        ],
+        "name": "Bedroom",
+        "pid": "2",
+        "position": {
+          "x": "841",
+          "y": "375"
+        }
+      },
+      {
+        "text": "Your eyelids droop low, and you fail to find the strength to keep them open. With a faint feeling of dread building deep within your stomach, you close your eyes and fall into a slumber from which you'll never wake up.",
+        "name": "Slumber",
+        "pid": "3",
+        "score": 15,
+        "position": {
+          "x": "834",
+          "y": "68"
+        }
+      },
+      {
+        "text": "You look into your toy chest.\n[[Hold Teddy->Hold Teddy]]\n[[Hold headless doll->Hold Dolly]]\n[[Go back->Bedroom]]",
+        "links": [
+          {
+            "name": "Hold Teddy",
+            "link": "Hold Teddy",
+            "pid": "26"
+          },
+          {
+            "name": "Hold headless doll",
+            "link": "Hold Dolly",
+            "pid": "25"
+          },
+          {
+            "name": "Go back",
+            "link": "Bedroom",
+            "pid": "2"
+          }
+        ],
+        "name": "Toy Chest",
+        "pid": "4",
+        "position": {
+          "x": "677",
+          "y": "77"
+        }
+      },
+      {
+        "text": "Your closet door creaks as you slowly pull it open. You think you see a figure standing in the corner.\n[[Investigate figure->Inside Closet]]\n[[Go back->Bedroom]]",
+        "links": [
+          {
+            "name": "Investigate figure",
+            "link": "Inside Closet",
+            "pid": "20"
+          },
+          {
+            "name": "Go back",
+            "link": "Bedroom",
+            "pid": "2"
+          }
+        ],
+        "name": "Closet",
+        "pid": "5",
+        "score": 20,
+        "position": {
+          "x": "299",
+          "y": "351"
+        }
+      },
+      {
+        "text": "You carefully lift up your blankets and peer into the darkness under your bed. Two glowing, yellow eyes stare back.\n[[Say Hello->Making Friends]]\n[[Scream->Under the Bed]]\n[[Go back->Bedroom]]",
+        "links": [
+          {
+            "name": "Say Hello",
+            "link": "Making Friends",
+            "pid": "21"
+          },
+          {
+            "name": "Scream",
+            "link": "Under the Bed",
+            "pid": "22"
+          },
+          {
+            "name": "Go back",
+            "link": "Bedroom",
+            "pid": "2"
+          }
+        ],
+        "name": "Bed",
+        "pid": "6",
+        "score": 20,
+        "position": {
+          "x": "1315",
+          "y": "346"
+        }
+      },
+      {
+        "text": "You look out your window. The sun is setting. Or is it rising? The world outside looked like you're seeing it from underwater.\n[[Open window->Opened Window]]\n[[Go back->Bedroom]]",
+        "links": [
+          {
+            "name": "Open window",
+            "link": "Opened Window",
+            "pid": "18"
+          },
+          {
+            "name": "Go back",
+            "link": "Bedroom",
+            "pid": "2"
+          }
+        ],
+        "name": "Window",
+        "pid": "7",
+        "score": 5,
+        "position": {
+          "x": "1228",
+          "y": "69"
+        }
+      },
+      {
+        "text": "You step out into the hallway. You can hear voices coming from downstairs. Maybe Mother is back from work?\n[[Go to Bathroom->Bathroom]]\n[[Go to Sister's Room->Outside Sister's Room]]\n[[Go downstairs->Downstairs Hallway]]",
+        "links": [
+          {
+            "name": "Go to Bathroom",
+            "link": "Bathroom",
+            "pid": "9"
+          },
+          {
+            "name": "Go to Sister's Room",
+            "link": "Outside Sister's Room",
+            "pid": "16"
+          },
+          {
+            "name": "Go downstairs",
+            "link": "Downstairs Hallway",
+            "pid": "10"
+          }
+        ],
+        "name": "Upstairs Hallway",
+        "pid": "8",
+        "position": {
+          "x": "842",
+          "y": "558"
+        }
+      },
+      {
+        "text": "You enter the bathroom and stand in front of the sink. You're barely tall enough to see yourself in the mirror. In the reflection, you see a semi-translucent woman standing behind you.\n[[Turn around->Shattered Glass]]\n[[Wave at the woman->Spectral Guest]]",
+        "links": [
+          {
+            "name": "Turn around",
+            "link": "Shattered Glass",
+            "pid": "23"
+          },
+          {
+            "name": "Wave at the woman",
+            "link": "Spectral Guest",
+            "pid": "24"
+          }
+        ],
+        "name": "Bathroom",
+        "pid": "9",
+        "score": 20,
+        "position": {
+          "x": "595",
+          "y": "568"
+        }
+      },
+      {
+        "text": "You stand in the downstairs hallway. The voices sound more like yells.\n[[Go to Kitchen->Kitchen]]\n[[Go to Living Room->Living Room]]\n[[Go to the Study->Father's Study]]\n[[Go to Front Hall->Front Hall]]\n[[Go to the Basement->Basement Stairs]]",
+        "links": [
+          {
+            "name": "Go to Kitchen",
+            "link": "Kitchen",
+            "pid": "11"
+          },
+          {
+            "name": "Go to Living Room",
+            "link": "Living Room",
+            "pid": "12"
+          },
+          {
+            "name": "Go to the Study",
+            "link": "Father's Study",
+            "pid": "13"
+          },
+          {
+            "name": "Go to Front Hall",
+            "link": "Front Hall",
+            "pid": "15"
+          },
+          {
+            "name": "Go to the Basement",
+            "link": "Basement Stairs",
+            "pid": "14"
+          }
+        ],
+        "name": "Downstairs Hallway",
+        "pid": "10",
+        "position": {
+          "x": "841",
+          "y": "708"
+        }
+      },
+      {
+        "text": "You walk into the kitchen. An amalgamation of meat and flesh sits at the table. He doesn't seem to notice you. \n[[Run for the knife rack->Fresh Meat]]\n[[Sit Down->At The Table]]\n[[Go back->Downstairs Hallway]]",
+        "links": [
+          {
+            "name": "Run for the knife rack",
+            "link": "Fresh Meat",
+            "pid": "30"
+          },
+          {
+            "name": "Sit Down",
+            "link": "At The Table",
+            "pid": "31"
+          },
+          {
+            "name": "Go back",
+            "link": "Downstairs Hallway",
+            "pid": "10"
+          }
+        ],
+        "name": "Kitchen",
+        "pid": "11",
+        "score": 15,
+        "position": {
+          "x": "440",
+          "y": "729"
+        }
+      },
+      {
+        "text": "You walk into the living room and the TV flickers on. The room is empty. The Newscaster on the screen looks exceptionally sad. \n[[Turn TV off->Crawling]]\n[[Change Channel->Entertainment]]\n[[Go back->Downstairs Hallway]]",
+        "links": [
+          {
+            "name": "Turn TV off",
+            "link": "Crawling",
+            "pid": "33"
+          },
+          {
+            "name": "Change Channel",
+            "link": "Entertainment",
+            "pid": "38"
+          },
+          {
+            "name": "Go back",
+            "link": "Downstairs Hallway",
+            "pid": "10"
+          }
+        ],
+        "name": "Living Room",
+        "pid": "12",
+        "score": 5,
+        "position": {
+          "x": "605",
+          "y": "900"
+        }
+      },
+      {
+        "text": "You sneak into Father's study. He usually keeps it locked, but today he seems too preoccupied with other matters.\n[[Search Desk->Desk]]\n[[Search Bookshelf->Bookshelf]]\n[[Search Rug->Rug]]\n[[Go back->Downstairs Hallway]]",
+        "links": [
+          {
+            "name": "Search Desk",
+            "link": "Desk",
+            "pid": "35"
+          },
+          {
+            "name": "Search Bookshelf",
+            "link": "Bookshelf",
+            "pid": "36"
+          },
+          {
+            "name": "Search Rug",
+            "link": "Rug",
+            "pid": "37"
+          },
+          {
+            "name": "Go back",
+            "link": "Downstairs Hallway",
+            "pid": "10"
+          }
+        ],
+        "name": "Father's Study",
+        "pid": "13",
+        "position": {
+          "x": "886",
+          "y": "943"
+        }
+      },
+      {
+        "text": "As you enter, you remember this house never had a basement.\n[[Descend the stairs->Basement]]\n",
+        "links": [
+          {
+            "name": "Descend the stairs",
+            "link": "Basement",
+            "pid": "32"
+          }
+        ],
+        "name": "Basement Stairs",
+        "pid": "14",
+        "score": 25,
+        "position": {
+          "x": "1292",
+          "y": "814"
+        }
+      },
+      {
+        "text": "The voices you heard came from the front hall. Father and a woman whose face you don't recognize are standing there arguing, blocking the front door. They don't seem to notice you over sound of their own yelling.\n[[Try to leave->Faceless]]\n[[Go back->Downstairs Hallway]]",
+        "links": [
+          {
+            "name": "Try to leave",
+            "link": "Faceless",
+            "pid": "34"
+          },
+          {
+            "name": "Go back",
+            "link": "Downstairs Hallway",
+            "pid": "10"
+          }
+        ],
+        "name": "Front Hall",
+        "pid": "15",
+        "score": 5,
+        "position": {
+          "x": "1091",
+          "y": "925"
+        }
+      },
+      {
+        "text": "You stop right outside Sister's room. From within, you can hear the soft sounds of someone weeping.\n[[Go back->Upstairs Hallway]]\n[[Enter room->Inside Sister's Room]]",
+        "links": [
+          {
+            "name": "Go back",
+            "link": "Upstairs Hallway",
+            "pid": "8"
+          },
+          {
+            "name": "Enter room",
+            "link": "Inside Sister's Room",
+            "pid": "17"
+          }
+        ],
+        "name": "Outside Sister's Room",
+        "pid": "16",
+        "position": {
+          "x": "1067",
+          "y": "582"
+        }
+      },
+      {
+        "text": "Sister sits at her desk, her back facing towards you. Her shoulders are hunched over and she holds her face in her hands. Tears slip out from between her fingers. It doesn't seem like she heard you come in.\n[[Ask when Mother will be home->Sister's Eyes]]\n[[Ask if she's alright->Sister's Smile]]\n[[Leave->Upstairs Hallway]]",
+        "links": [
+          {
+            "name": "Ask when Mother will be home",
+            "link": "Sister's Eyes",
+            "pid": "27"
+          },
+          {
+            "name": "Ask if she's alright",
+            "link": "Sister's Smile",
+            "pid": "28"
+          },
+          {
+            "name": "Leave",
+            "link": "Upstairs Hallway",
+            "pid": "8"
+          }
+        ],
+        "name": "Inside Sister's Room",
+        "pid": "17",
+        "score": 5,
+        "position": {
+          "x": "1272",
+          "y": "521"
+        }
+      },
+      {
+        "text": "You push the window shutters open and are met with hot air that burns your throat and makes tears spring to your eyes. Maybe you'll feel better once you're outside.\n[[Try to fly->Fall]]\n[[Close the Window->Bedroom]]",
+        "links": [
+          {
+            "name": "Try to fly",
+            "link": "Fall",
+            "pid": "19"
+          },
+          {
+            "name": "Close the Window",
+            "link": "Bedroom",
+            "pid": "2"
+          }
+        ],
+        "name": "Opened Window",
+        "pid": "18",
+        "score": 10,
+        "position": {
+          "x": "1388",
+          "y": "75"
+        }
+      },
+      {
+        "text": "You're sure you can do it. You imagine spreading your wings and flying away to a place where everything is better. Everything is good. Maybe you'll dream of that place from where you lay crumpled on the ground. \n[[Wake Up->Wake Up]]",
+        "links": [
+          {
+            "name": "Wake Up",
+            "link": "Wake Up",
+            "pid": "1"
+          }
+        ],
+        "name": "Fall",
+        "pid": "19",
+        "score": -15,
+        "position": {
+          "x": "1552",
+          "y": "125"
+        }
+      },
+      {
+        "text": "You reach out to touch the looming shape, only to realize it's your winter coat hanging on the wall. You feel a bit better.\n[[Go back->Bedroom]]",
+        "links": [
+          {
+            "name": "Go back",
+            "link": "Bedroom",
+            "pid": "2"
+          }
+        ],
+        "name": "Inside Closet",
+        "pid": "20",
+        "score": 20,
+        "position": {
+          "x": "146",
+          "y": "317"
+        }
+      },
+      {
+        "text": "You say hello and the creature growls with what you assume is a response. It doesn't seem all that scary once you get to know it.\n[[Go back->Bedroom]]",
+        "links": [
+          {
+            "name": "Go back",
+            "link": "Bedroom",
+            "pid": "2"
+          }
+        ],
+        "name": "Making Friends",
+        "pid": "21",
+        "score": -15,
+        "position": {
+          "x": "1513",
+          "y": "438"
+        }
+      },
+      {
+        "text": "It hisses in response to your scream. You try to drop the blankets and run but the creature has already dug its claws into your ankles and dragged you beneath the bed with it.\n[[Wake Up->Wake Up]]",
+        "links": [
+          {
+            "name": "Wake Up",
+            "link": "Wake Up",
+            "pid": "1"
+          }
+        ],
+        "name": "Under the Bed",
+        "pid": "22",
+        "score": 30,
+        "position": {
+          "x": "1530",
+          "y": "291"
+        }
+      },
+      {
+        "text": "You turn around to look at the woman, but no one is standing there. Before you can react, you feel two hands reach out from behind you and grasp you by the neck. You lurch backwards as the woman pulls you into the mirror with her. The glass of the mirror shatters, severing your connection to this world, forever.\n[[Wake Up->Wake Up]]",
+        "links": [
+          {
+            "name": "Wake Up",
+            "link": "Wake Up",
+            "pid": "1"
+          }
+        ],
+        "name": "Shattered Glass",
+        "pid": "23",
+        "score": 30,
+        "position": {
+          "x": "260",
+          "y": "568"
+        }
+      },
+      {
+        "text": "You wave and, after a brief moment, the ghostly woman smiles and waves back. She sings a little tune as she flushes herself down the toilet and disappears.\n[[Go back->Upstairs Hallway]]",
+        "links": [
+          {
+            "name": "Go back",
+            "link": "Upstairs Hallway",
+            "pid": "8"
+          }
+        ],
+        "name": "Spectral Guest",
+        "pid": "24",
+        "score": -20,
+        "position": {
+          "x": "411",
+          "y": "461"
+        }
+      },
+      {
+        "text": "Mother gave you this doll before she left for work. You cherished it so long that the stitching has frayed and fallen apart. You feel a bit better.\n[[Go back->Bedroom]]",
+        "links": [
+          {
+            "name": "Go back",
+            "link": "Bedroom",
+            "pid": "2"
+          }
+        ],
+        "name": "Hold Dolly",
+        "pid": "25",
+        "score": -10,
+        "position": {
+          "x": "442",
+          "y": "57"
+        }
+      },
+      {
+        "text": "Father gave you Teddy last year for your birthday. You hate Teddy.\n[[Go back->Bedroom]]",
+        "links": [
+          {
+            "name": "Go back",
+            "link": "Bedroom",
+            "pid": "2"
+          }
+        ],
+        "name": "Hold Teddy",
+        "pid": "26",
+        "score": 10,
+        "position": {
+          "x": "451",
+          "y": "181"
+        }
+      },
+      {
+        "text": "Sister goes silent for a moment. Her spine curls inwards as she lets out a pained groan. She pulls her hands away from her face and turns to look at you. Her eye balls sit in her open palms, while two dark voids encompass where her eyes are meant to be. Her jaw hangs open and a scream spills out. The black holes of her sockets grow and expand, then swallow you whole.\n[[Wake Up->Wake Up]]",
+        "links": [
+          {
+            "name": "Wake Up",
+            "link": "Wake Up",
+            "pid": "1"
+          }
+        ],
+        "name": "Sister's Eyes",
+        "pid": "27",
+        "score": 30,
+        "position": {
+          "x": "1384",
+          "y": "680"
+        }
+      },
+      {
+        "text": "Sister goes silent for a moment. Then she looks up at you, wiping at her red eyes, and she gives you a small smile. She says she'll be okay, and tells you to worry more about yourself.\n[[Hug Sister->Warmth]]\n[[Go back->Upstairs Hallway]] ",
+        "links": [
+          {
+            "name": "Hug Sister",
+            "link": "Warmth",
+            "pid": "29"
+          },
+          {
+            "name": "Go back",
+            "link": "Upstairs Hallway",
+            "pid": "8"
+          }
+        ],
+        "name": "Sister's Smile",
+        "pid": "28",
+        "score": 5,
+        "position": {
+          "x": "1534",
+          "y": "590"
+        }
+      },
+      {
+        "text": "You slowly, carefully, wrap your arms around her. Her face tightens and she buries it into your small shoulders. She holds you tight for a moment longer, then thanks you.\n[[Go back->Upstairs Hallway]]",
+        "links": [
+          {
+            "name": "Go back",
+            "link": "Upstairs Hallway",
+            "pid": "8"
+          }
+        ],
+        "name": "Warmth",
+        "pid": "29",
+        "score": -30,
+        "position": {
+          "x": "1642",
+          "y": "719"
+        }
+      },
+      {
+        "text": "In a flash, you get the knife in your hands and plunge it into the back (or front?) of the flesh monster. It gurgles and spurts, but as you try to pull away, your wrists sink deeper into the creature's body. You struggle futily as its muscles and viscera consume you completely.\n[[Wake Up->Wake Up]]",
+        "links": [
+          {
+            "name": "Wake Up",
+            "link": "Wake Up",
+            "pid": "1"
+          }
+        ],
+        "name": "Fresh Meat",
+        "pid": "30",
+        "score": 30,
+        "position": {
+          "x": "266",
+          "y": "775"
+        }
+      },
+      {
+        "text": "You grab a snack and sit down at the table directly across from Mr. Meat Sack. It lets out a low gurgle; he is not much for conversation. You enjoy each other's company in relative silence until you've finished.\n[[Go back->Downstairs Hallway]] ",
+        "links": [
+          {
+            "name": "Go back",
+            "link": "Downstairs Hallway",
+            "pid": "10"
+          }
+        ],
+        "name": "At The Table",
+        "pid": "31",
+        "score": -10,
+        "position": {
+          "x": "322",
+          "y": "897"
+        }
+      },
+      {
+        "text": "You can't turn back now.\n[[Descend->The Darkness]]",
+        "links": [
+          {
+            "name": "Descend",
+            "link": "The Darkness",
+            "pid": "39"
+          }
+        ],
+        "name": "Basement",
+        "pid": "32",
+        "score": 30,
+        "position": {
+          "x": "1482",
+          "y": "930"
+        }
+      },
+      {
+        "text": "You walk over and flick the switch to turn the TV off. As soon as you turn away, it defiantly flicks back on. You play this game of back and forth a little while longer. Around the fourth or fifth time the screen flashes to life, it appears there's a multitude of small forms wriggling beneath its surface. All at once, the glass of the television screen shatters, sending a cluster of spiders flying out of the box and onto your skin. They invade your nose, your mouth, your ears. You choke and sputter and writhe until you finally lay still.\n[[Wake Up->Wake Up]]",
+        "links": [
+          {
+            "name": "Wake Up",
+            "link": "Wake Up",
+            "pid": "1"
+          }
+        ],
+        "name": "Crawling",
+        "pid": "33",
+        "score": 30,
+        "position": {
+          "x": "441",
+          "y": "1012"
+        }
+      },
+      {
+        "text": "You didn't think they'd notice if you tried to quietly slip away. You were wrong. The woman grabs you by the wrist and spins you around the face her. You realize it isn't that you don't recognize her face, you can't. Her eye color shifts from brown to green to blue, her lips morph from full to thin, and her the bridge nose fluctuates no matter how hard you stare. She says that you'll be leaving together, and you protest to a blank-faced Father as the shifter drags you out the door and slams it shut.\n[[Wake Up->Wake Up]]",
+        "links": [
+          {
+            "name": "Wake Up",
+            "link": "Wake Up",
+            "pid": "1"
+          }
+        ],
+        "name": "Faceless",
+        "pid": "34",
+        "score": 30,
+        "position": {
+          "x": "1230",
+          "y": "1028"
+        }
+      },
+      {
+        "text": "You investigate the drawers of Father's desk. You can't comprehend most of the papers and files. In the bottom drawer, you find Dolly's head.\n[[Go back->Father's Study]]",
+        "links": [
+          {
+            "name": "Go back",
+            "link": "Father's Study",
+            "pid": "13"
+          }
+        ],
+        "name": "Desk",
+        "pid": "35",
+        "score": 5,
+        "position": {
+          "x": "737",
+          "y": "1095"
+        }
+      },
+      {
+        "text": "You comb through the books that fill Father's shelves. He's very proud of his collection. It's crammed with stories from Mary Shelley, Lovecraft and the like; however, you remember Father's favorite stories were Poe's. Anytime he left a novel sitting out on the coffee table, you'd steal it away and finish it before he realized it was missing. \n[[Go back->Father's Study]]",
+        "links": [
+          {
+            "name": "Go back",
+            "link": "Father's Study",
+            "pid": "13"
+          }
+        ],
+        "name": "Bookshelf",
+        "pid": "36",
+        "score": -15,
+        "position": {
+          "x": "886",
+          "y": "1095"
+        }
+      },
+      {
+        "text": "Under the rug, your hands find a loose floor board. Prying it up, you discover Mother's wedding ring sticking up out of the house's foundation. The ring is still connected to a hand.\n[[Go back->Father's Study]]",
+        "links": [
+          {
+            "name": "Go back",
+            "link": "Father's Study",
+            "pid": "13"
+          }
+        ],
+        "name": "Rug",
+        "pid": "37",
+        "score": 30,
+        "position": {
+          "x": "1040",
+          "y": "1095"
+        }
+      },
+      {
+        "text": "You can't understand what the Newscaster is saying, so you go and switch the channel to your favorite cartoon. In the vacant room, you hear another child's laughter. You're happy that they seem to like the show too.\n[[Go back->Downstairs Hallway]] ",
+        "links": [
+          {
+            "name": "Go back",
+            "link": "Downstairs Hallway",
+            "pid": "10"
+          }
+        ],
+        "name": "Entertainment",
+        "pid": "38",
+        "score": -20,
+        "position": {
+          "x": "554",
+          "y": "1096"
+        }
+      },
+      {
+        "text": "You walk until you can't see your own hand in front of your face. The air is cold and bites at your cheeks. You're tired. Just as you are ready to succumb to the darkness. You hear Mother's voice in the distance.\n[[Follow it->Mother]]\n[[Close eyes->Slumber]]",
+        "links": [
+          {
+            "name": "Follow it",
+            "link": "Mother",
+            "pid": "40"
+          },
+          {
+            "name": "Close eyes",
+            "link": "Slumber",
+            "pid": "3"
+          }
+        ],
+        "name": "The Darkness",
+        "pid": "39",
+        "score": 50,
+        "position": {
+          "x": "1482",
+          "y": "1082"
+        }
+      },
+      {
+        "text": "Hearing her voice, you find the strength to push forward. Further and further down, deeper into the darkness. You can't see her, but you know she's there. You can't feel her touch, but you sense her close beside you. You are very tired. She tells you it's not your time to rest.\n[[Wake Up->Wake Up]]",
+        "links": [
+          {
+            "name": "Wake Up",
+            "link": "Wake Up",
+            "pid": "1"
+          }
+        ],
+        "name": "Mother",
+        "pid": "40",
+        "score": -150,
+        "position": {
+          "x": "1478",
+          "y": "1227"
+        }
+      }
+    ],
+    "name": "Mother's Child",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.12",
+    "ifid": "AC0594E6-F6F0-431E-B691-554552E73A2D"
+  }
